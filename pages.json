@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/WorkBench/WorkBenchIndex",
+			"style": {
+				"navigationBarTitleText": "工作台",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Information/Information",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Information/Model/InfoParticulars",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/AddressList/AddressList",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/My/My",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/My/Model/ModifiedData",
+			"style": {
+				"navigationBarTitleText": "修改资料",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/My/Model/service",
+			"style": {
+				"navigationBarTitleText": "客服",
+				"navigationStyle": "custom"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "城投OA&ERP",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	// "tabBar": {
+	// 	"list": [{
+	// 			"pagePath": "pages/Information/Information",
+	// 			"text": "消息"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/WorkBench/WorkBenchIndex",
+	// 			"text": "工作台"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/AddressList/AddressList",
+	// 			"text": "通讯录"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/My/My",
+	// 			"text": "我的"
+	// 		}
+	// 	]
+	// }
+}
